@@ -1,0 +1,51 @@
+.Forms-main{
+  height: 350px;
+  width: 300px;
+  background-color: blueviolet;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 70px;
+}
+.sub-btn{
+  height: 30px;
+  width: 100px;
+  background-color: brown;
+  color: beige;
+  border: none;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.sub-btn:hover, .re-btn:hover {
+  background-color: darkred; /* Darker shade for hover */
+  cursor: pointer;
+}
+
+.input-box{
+  margin: 0px 0px 5px 5px;
+  height: 25px;
+  width: 50%;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input-box:focus {
+  border: 1px solid blue; /* Highlight input on focus */
+}
+
+
+.re-btn{
+  height: 25px;
+  width: 100px;
+  background-color: burlywood;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 30px;
+}
